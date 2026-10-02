@@ -58,15 +58,32 @@
     if (e.key === 'Escape') cerrar();
   });
 
-  // PENDIENTE: definir a qué correo llega el formulario. Mientras tanto sólo
-  // confirma en pantalla; no envía nada a ninguna parte.
+  // Formulario "Hablemos": se envía a Formspree, que lo reenvía al correo de
+  // GoChannel. Se manda por fetch para que el visitante no salga de la página.
   var form = modal.querySelector('form');
   if (form) {
+    var error = document.createElement('p');
+    error.style.cssText = 'display:none;color:#b42318;font-size:14px;margin:10px 0 0';
+    form.appendChild(error);
+
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      form.style.display = 'none';
-      var ok = modal.querySelector('.modal-ok');
-      if (ok) ok.style.display = 'block';
+      var enviar = form.querySelector('[type="submit"]');
+      enviar.disabled = true;
+      error.style.display = 'none';
+      fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          form.reset();
+          form.style.display = 'none';
+          var ok = modal.querySelector('.modal-ok');
+          if (ok) ok.style.display = 'block';
+        })
+        .catch(function () {
+          error.textContent = 'No pudimos enviar tu mensaje. Revisa tu conexión e inténtalo de nuevo, o escríbenos a contacto@gochannel.cl.';
+          error.style.display = 'block';
+        })
+        .then(function () { enviar.disabled = false; });
     });
   }
 })();

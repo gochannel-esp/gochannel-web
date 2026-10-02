@@ -254,7 +254,7 @@
         <h4>Contacto</h4>
         <ul>
           <li><a href="#contacto">Solicita una reunión</a></li>
-          <!-- PENDIENTE: correo, teléfono y dirección definitivos de GoChannel. -->
+          <li><a href="mailto:contacto@gochannel.cl">contacto@gochannel.cl</a></li>
         </ul>
       </div>
     </div>
@@ -272,7 +272,9 @@
     <button class="modal-cerrar" data-cerrar aria-label="Cerrar">&times;</button>
     <h2 id="modal-titulo">Hablemos</h2>
     <p class="sub" style="font-size:15px">Cuéntanos de tu negocio y te contactamos para revisar cómo incorporar la categoría de tecnología.</p>
-    <form>
+    <form action="https://formspree.io/f/xeaowwnp" method="POST">
+      <input type="hidden" name="_subject" value="Nuevo contacto desde gochannel.cl">
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
       <div class="campo"><label for="c-nombre">Nombre</label><input id="c-nombre" name="nombre" required></div>
       <div class="campo"><label for="c-empresa">Empresa</label><input id="c-empresa" name="empresa" required></div>
       <div class="campo"><label for="c-correo">Correo</label><input id="c-correo" name="correo" type="email" required></div>
