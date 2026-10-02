@@ -1,0 +1,28 @@
+# GoChannel
+
+> GoChannel incorpora y opera la categoría de Tecnología y Computación dentro del e-commerce o marketplace de otras empresas en Chile, bajo un modelo de "Category as a Service". La tienda mantiene su marca, sus clientes y su canal de venta; GoChannel aporta la categoría: marcas, mayoristas, mix de productos, integración vía API, operación, postventa y marketing.
+
+GoChannel ("Activamos la venta de tecnología") está dirigido a retailers y cadenas de tiendas, marketplaces y e-commerce, tiendas especializadas que quieren ampliar su oferta y organizaciones con presencia física y digital.
+
+Puntos clave del modelo:
+
+- Sin inversión en stock: el catálogo se alimenta desde mayoristas conectados y la venta es a pedido, con entrega diferida (despacho a domicilio o retiro en tienda).
+- Sin riesgo de obsolescencia ni análisis del mix por parte de la tienda: GoChannel selecciona las marcas, los mayoristas y los productos.
+- Integración y sincronización vía API de stock, disponibilidad, precios y pedidos con el e-commerce, marketplace o ERP de la tienda.
+- Soporte, garantía y postventa gestionados por GoChannel, con apoyo permanente en marketing de la categoría.
+- Análisis conjunto de costo, margen y venta con la empresa.
+- Funciona como marketplace, dropship o integración híbrida, y crece por etapas: primero el canal digital y luego, con datos reales de venta, la tienda física.
+- Categorías: computadores y notebooks, monitores y pantallas, PC de escritorio, impresoras y consumibles, audio y videoconferencia, redes y conectividad, almacenamiento, gaming, accesorios y periféricos.
+
+El equipo tiene experiencia en dirección de cadenas de computación, distribución mayorista, gestión de marcas globales de tecnología, e-commerce, operación de tiendas y finanzas de retail. Antes de GoChannel implementó la categoría de Tecnología y Computación en 4 tiendas de una cadena regional.
+
+Contacto: contacto@gochannel.cl
+
+## Páginas
+
+- [Inicio](https://gochannel.cl/): qué hace GoChannel y por qué trabajar con ellos.
+- [Cómo funciona](https://gochannel.cl/como-funciona.html): el proceso en 8 pasos, desde la planificación hasta el marketing permanente.
+- [Marcas](https://gochannel.cl/marcas.html): marcas y mayoristas con los que trabaja y categorías de productos.
+- [Beneficios](https://gochannel.cl/beneficios.html): beneficios para la tienda y a qué tipo de empresa le sirve.
+- [Modelo de Negocio](https://gochannel.cl/modelo-de-negocio.html): Category as a Service, el ecosistema de marcas, mayoristas, tienda y cliente final, y la evolución por etapas.
+- [Nosotros](https://gochannel.cl/nosotros.html): la experiencia y la trayectoria del equipo.
