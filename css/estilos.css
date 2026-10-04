@@ -74,6 +74,9 @@ p{margin:0 0 1em}
 .nav a:hover{color:var(--verde)}
 .nav a.activo{color:var(--verde);font-weight:600;border-bottom-color:var(--verde)}
 .header .btn{margin-left:4px}
+/* .nav a pisa color, relleno y borde del botón Hablemos: se devuelven los de .btn */
+.nav a.btn{padding:12px 22px;border:2px solid transparent}
+.nav a.btn-verde,.nav a.btn-verde:hover{color:#fff}
 .hamburguesa{
   display:none;margin-left:auto;background:none;border:0;cursor:pointer;
   padding:8px;color:var(--navy);
